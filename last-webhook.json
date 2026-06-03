@@ -1,0 +1,10 @@
+{
+  "timestamp": "2026-06-03T14:05:22.461Z",
+  "message": "Hello World",
+  "authentication": "none",
+  "received_token": null,
+  "decoded_token": null,
+  "received_body": {
+    "delivery_id": "123"
+  }
+}
