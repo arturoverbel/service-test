@@ -7,7 +7,7 @@ const app = express();
 
 app.use(express.json());
 
-const PORT = 8082;
+const PORT = process.env.PORT || 8082;
 const JWT_SECRET = "super-secret-for-testing";
 const LAST_WEBHOOK_FILE = "./last-webhook.json";
 
